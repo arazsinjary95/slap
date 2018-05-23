@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		996ABB01312C39B0E0B4BEA5 /* Pods_slap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B8345B44DEB8645CD4C337 /* Pods_slap.framework */; };
 		AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48CDD620B5940800C8CF2B /* AppDelegate.swift */; };
-		AE48CDD920B5940800C8CF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48CDD820B5940800C8CF2B /* ViewController.swift */; };
 		AE48CDDC20B5940800C8CF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDA20B5940800C8CF2B /* Main.storyboard */; };
 		AE48CDDE20B5940A00C8CF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */; };
 		AE48CDE120B5940A00C8CF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDF20B5940A00C8CF2B /* LaunchScreen.storyboard */; };
 		AE81462C20B59C29003B4661 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81462B20B59C29003B4661 /* SWRevealViewController.m */; };
+		AE81463120B5A3E0003B4661 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81463020B5A3E0003B4661 /* ChatVC.swift */; };
+		AE81463320B5A3F9003B4661 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81463220B5A3F9003B4661 /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,6 @@
 		98C92FE2F52825E7456710FA /* Pods-slap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.debug.xcconfig"; sourceTree = "<group>"; };
 		AE48CDD320B5940800C8CF2B /* slap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48CDD620B5940800C8CF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE48CDD820B5940800C8CF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE48CDDB20B5940800C8CF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE48CDE020B5940A00C8CF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		AE81462920B59C28003B4661 /* slap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slap-Bridging-Header.h"; sourceTree = "<group>"; };
 		AE81462A20B59C29003B4661 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AE81462B20B59C29003B4661 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AE81463020B5A3E0003B4661 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		AE81463220B5A3F9003B4661 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		F336A2295EA3137384A5D506 /* Pods-slap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.release.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,9 +75,11 @@
 		AE48CDD520B5940800C8CF2B /* slap */ = {
 			isa = PBXGroup;
 			children = (
+				AE81462F20B5A397003B4661 /* Model */,
+				AE81462E20B5A38D003B4661 /* View */,
+				AE81462D20B5A375003B4661 /* Controller */,
 				AE81462820B59BAA003B4661 /* Supporting File */,
 				AE48CDD620B5940800C8CF2B /* AppDelegate.swift */,
-				AE48CDD820B5940800C8CF2B /* ViewController.swift */,
 				AE48CDDA20B5940800C8CF2B /* Main.storyboard */,
 				AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */,
 				AE48CDDF20B5940A00C8CF2B /* LaunchScreen.storyboard */,
@@ -92,6 +96,29 @@
 				AE81462920B59C28003B4661 /* slap-Bridging-Header.h */,
 			);
 			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		AE81462D20B5A375003B4661 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE81463020B5A3E0003B4661 /* ChatVC.swift */,
+				AE81463220B5A3F9003B4661 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE81462E20B5A38D003B4661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE81462F20B5A397003B4661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FCB01DDA368D53A3CB6D9CDD /* Pods */ = {
@@ -222,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE48CDD920B5940800C8CF2B /* ViewController.swift in Sources */,
+				AE81463320B5A3F9003B4661 /* ChannelVC.swift in Sources */,
+				AE81463120B5A3E0003B4661 /* ChatVC.swift in Sources */,
 				AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */,
 				AE81462C20B59C29003B4661 /* SWRevealViewController.m in Sources */,
 			);
