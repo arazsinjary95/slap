@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996ABB01312C39B0E0B4BEA5 /* Pods_slap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B8345B44DEB8645CD4C337 /* Pods_slap.framework */; };
 		AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48CDD620B5940800C8CF2B /* AppDelegate.swift */; };
 		AE48CDD920B5940800C8CF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48CDD820B5940800C8CF2B /* ViewController.swift */; };
 		AE48CDDC20B5940800C8CF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDA20B5940800C8CF2B /* Main.storyboard */; };
 		AE48CDDE20B5940A00C8CF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */; };
 		AE48CDE120B5940A00C8CF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDF20B5940A00C8CF2B /* LaunchScreen.storyboard */; };
+		AE81462C20B59C29003B4661 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81462B20B59C29003B4661 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83B8345B44DEB8645CD4C337 /* Pods_slap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C92FE2F52825E7456710FA /* Pods-slap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.debug.xcconfig"; sourceTree = "<group>"; };
 		AE48CDD320B5940800C8CF2B /* slap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48CDD620B5940800C8CF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE48CDD820B5940800C8CF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE48CDE020B5940A00C8CF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE48CDE220B5940A00C8CF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE81462920B59C28003B4661 /* slap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slap-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE81462A20B59C29003B4661 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AE81462B20B59C29003B4661 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F336A2295EA3137384A5D506 /* Pods-slap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.release.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996ABB01312C39B0E0B4BEA5 /* Pods_slap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F733F20204B938AE0A3F389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B8345B44DEB8645CD4C337 /* Pods_slap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE48CDCA20B5940800C8CF2B = {
 			isa = PBXGroup;
 			children = (
 				AE48CDD520B5940800C8CF2B /* slap */,
 				AE48CDD420B5940800C8CF2B /* Products */,
+				FCB01DDA368D53A3CB6D9CDD /* Pods */,
+				2F733F20204B938AE0A3F389 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,7 @@
 		AE48CDD520B5940800C8CF2B /* slap */ = {
 			isa = PBXGroup;
 			children = (
+				AE81462820B59BAA003B4661 /* Supporting File */,
 				AE48CDD620B5940800C8CF2B /* AppDelegate.swift */,
 				AE48CDD820B5940800C8CF2B /* ViewController.swift */,
 				AE48CDDA20B5940800C8CF2B /* Main.storyboard */,
@@ -64,6 +84,25 @@
 			path = slap;
 			sourceTree = "<group>";
 		};
+		AE81462820B59BAA003B4661 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				AE81462A20B59C29003B4661 /* SWRevealViewController.h */,
+				AE81462B20B59C29003B4661 /* SWRevealViewController.m */,
+				AE81462920B59C28003B4661 /* slap-Bridging-Header.h */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		FCB01DDA368D53A3CB6D9CDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C92FE2F52825E7456710FA /* Pods-slap.debug.xcconfig */,
+				F336A2295EA3137384A5D506 /* Pods-slap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE48CDE520B5940A00C8CF2B /* Build configuration list for PBXNativeTarget "slap" */;
 			buildPhases = (
+				B84662C2A3D4EEA87FF090DF /* [CP] Check Pods Manifest.lock */,
 				AE48CDCF20B5940800C8CF2B /* Sources */,
 				AE48CDD020B5940800C8CF2B /* Frameworks */,
 				AE48CDD120B5940800C8CF2B /* Resources */,
+				E75A047C3B0ED38B5BAAF16F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +137,7 @@
 				TargetAttributes = {
 					AE48CDD220B5940800C8CF2B = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,6 +172,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B84662C2A3D4EEA87FF090DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75A047C3B0ED38B5BAAF16F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-slap/Pods-slap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slap/Pods-slap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE48CDCF20B5940800C8CF2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +224,7 @@
 			files = (
 				AE48CDD920B5940800C8CF2B /* ViewController.swift in Sources */,
 				AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */,
+				AE81462C20B59C29003B4661 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +366,10 @@
 		};
 		AE48CDE620B5940A00C8CF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C92FE2F52825E7456710FA /* Pods-slap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = slap/Info.plist;
@@ -289,6 +379,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.slap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slap/Supporting File/slap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +388,10 @@
 		};
 		AE48CDE720B5940A00C8CF2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F336A2295EA3137384A5D506 /* Pods-slap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3HSH3HTMU;
 				INFOPLIST_FILE = slap/Info.plist;
@@ -307,6 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arazsinjary.slap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slap/Supporting File/slap-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
