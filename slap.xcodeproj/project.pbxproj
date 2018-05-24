@@ -18,6 +18,7 @@
 		AE81463520B5B849003B4661 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81463420B5B849003B4661 /* GradientView.swift */; };
 		AEC6E7BB20B5F95600DAD271 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC6E7BA20B5F95600DAD271 /* Constants.swift */; };
 		AEC6E7BD20B6002600DAD271 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC6E7BC20B6002600DAD271 /* LoginVC.swift */; };
+		AEC6E7BF20B6FE8200DAD271 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC6E7BE20B6FE8200DAD271 /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AE81463420B5B849003B4661 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		AEC6E7BA20B5F95600DAD271 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AEC6E7BC20B6002600DAD271 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AEC6E7BE20B6FE8200DAD271 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		F336A2295EA3137384A5D506 /* Pods-slap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.release.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				AE81463020B5A3E0003B4661 /* ChatVC.swift */,
 				AE81463220B5A3F9003B4661 /* ChannelVC.swift */,
 				AEC6E7BC20B6002600DAD271 /* LoginVC.swift */,
+				AEC6E7BE20B6FE8200DAD271 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				AE81463320B5A3F9003B4661 /* ChannelVC.swift in Sources */,
 				AE81463120B5A3E0003B4661 /* ChatVC.swift in Sources */,
+				AEC6E7BF20B6FE8200DAD271 /* CreateAccountVC.swift in Sources */,
 				AEC6E7BD20B6002600DAD271 /* LoginVC.swift in Sources */,
 				AE81463520B5B849003B4661 /* GradientView.swift in Sources */,
 				AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */,
