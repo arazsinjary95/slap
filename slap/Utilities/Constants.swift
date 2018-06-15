@@ -8,7 +8,21 @@
 
 import Foundation
 
+//typealias is meaing renaming type expresion like blow.
+//typealias araz = string
+//let name: araz = "araz"
+typealias CompletionHandler = (_ Success: Bool) -> ()
+
+//URL Constants
+let BASE_URL = " https://chattychatchating.herokuapp.com/v1/"
+let URL_REGISTER = "\(BASE_URL)account/register"
+
 //this for segues to be constant.
 let TO_LOGIN = "toLogin"
 let TO_CREATEACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+
+//user defaults.
+let TOKEN_KEY = "token"
+let LOGGED_IN_KEY = "loggedIn"
+let USER_EMAIL = "userEmail"
