@@ -10,6 +10,7 @@
 		996ABB01312C39B0E0B4BEA5 /* Pods_slap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B8345B44DEB8645CD4C337 /* Pods_slap.framework */; };
 		AE30F7C420D406AB005806A7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30F7C320D406AB005806A7 /* AuthService.swift */; };
 		AE30F7C620D4FE01005806A7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30F7C520D4FE01005806A7 /* RoundedButton.swift */; };
+		AE30F7C820D635B9005806A7 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30F7C720D635B9005806A7 /* UserDataService.swift */; };
 		AE48CDD720B5940800C8CF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48CDD620B5940800C8CF2B /* AppDelegate.swift */; };
 		AE48CDDC20B5940800C8CF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDA20B5940800C8CF2B /* Main.storyboard */; };
 		AE48CDDE20B5940A00C8CF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE48CDDD20B5940A00C8CF2B /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		98C92FE2F52825E7456710FA /* Pods-slap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slap/Pods-slap.debug.xcconfig"; sourceTree = "<group>"; };
 		AE30F7C320D406AB005806A7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		AE30F7C520D4FE01005806A7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		AE30F7C720D635B9005806A7 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		AE48CDD320B5940800C8CF2B /* slap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48CDD620B5940800C8CF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE48CDDB20B5940800C8CF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				AE30F7C320D406AB005806A7 /* AuthService.swift */,
+				AE30F7C720D635B9005806A7 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				AE81463320B5A3F9003B4661 /* ChannelVC.swift in Sources */,
 				AE30F7C620D4FE01005806A7 /* RoundedButton.swift in Sources */,
 				AE81463120B5A3E0003B4661 /* ChatVC.swift in Sources */,
+				AE30F7C820D635B9005806A7 /* UserDataService.swift in Sources */,
 				AEC6E7BF20B6FE8200DAD271 /* CreateAccountVC.swift in Sources */,
 				AE30F7C420D406AB005806A7 /* AuthService.swift in Sources */,
 				AEC6E7BD20B6002600DAD271 /* LoginVC.swift in Sources */,
