@@ -25,6 +25,14 @@ class CreateAccountVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    //if avatarpicker (image) come we want update
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDataService.instance.avatarName != "" {
+            userImg.image = UIImage(named: UserDataService.instance.avatarName)
+            avatarName = UserDataService.instance.avatarName
+        }
+    }
 
     @IBAction func createAccountPressed(_ sender: Any) {
         //comma is what is inside email

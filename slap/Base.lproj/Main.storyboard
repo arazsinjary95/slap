@@ -431,8 +431,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAh-2W-pma">
-                                <rect key="frame" x="16" y="28" width="28" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAh-2W-pma">
+                                <rect key="frame" x="16" y="28" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Wre-F9-ono"/>
                                     <constraint firstAttribute="width" constant="30" id="wwi-Ed-3Mb"/>
@@ -499,6 +499,7 @@
                             <constraint firstItem="QX8-MT-B4h" firstAttribute="bottom" secondItem="dFt-jx-ui4" secondAttribute="bottom" id="abT-Qs-nqt"/>
                             <constraint firstItem="OU7-vg-br5" firstAttribute="top" secondItem="QX8-MT-B4h" secondAttribute="top" constant="8" id="f85-Ir-9wv"/>
                             <constraint firstItem="dFt-jx-ui4" firstAttribute="top" secondItem="cAh-2W-pma" secondAttribute="bottom" constant="20" id="fNh-tV-bDC"/>
+                            <constraint firstItem="cAh-2W-pma" firstAttribute="leading" secondItem="QX8-MT-B4h" secondAttribute="leading" constant="16" id="igt-9s-25x"/>
                             <constraint firstItem="QX8-MT-B4h" firstAttribute="trailing" secondItem="dFt-jx-ui4" secondAttribute="trailing" id="x3q-AT-gR7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QX8-MT-B4h"/>
