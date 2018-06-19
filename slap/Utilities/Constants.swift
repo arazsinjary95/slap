@@ -13,6 +13,12 @@ import Foundation
 //let name: araz = "araz"
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
+//colors
+let smackPurplePlaceholder = #colorLiteral(red: 0.3254901961, green: 0.4215201139, blue: 0.7752227187, alpha: 0.5)
+
+//notification constants
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataCanged")
+
 //URL Constants
 let BASE_URL =   "https://chattychatchating.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
