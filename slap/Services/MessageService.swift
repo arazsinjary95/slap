@@ -29,6 +29,7 @@ class MessageService {
                             let channel = Channel(channelTitle: name, channelDescription: description, id: id)
                             self.channels.append(channel)
                         }
+                        //print(self.channels[0].channelTitle)
                         print(self.channels.map{ $0.channelTitle})
                         completion(true)
                     }
