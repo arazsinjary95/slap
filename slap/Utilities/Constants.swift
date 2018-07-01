@@ -18,6 +18,8 @@ let smackPurplePlaceholder = #colorLiteral(red: 0.3254901961, green: 0.421520113
 
 //notification constants
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataCanged")
+let NOTIF_CHANNEL_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("channelSelected")
 
 //URL Constants
 let BASE_URL =   "https://chattychatchating.herokuapp.com/v1/"

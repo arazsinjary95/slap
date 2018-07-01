@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rmW-uv-QYm" userLabel="bgView">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQ5-Xj-cRm">
@@ -124,7 +124,7 @@
                 <constraint firstItem="aQ5-Xj-cRm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="2LK-Ec-O27"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rmW-uv-QYm" secondAttribute="trailing" id="FKU-Kv-eIf"/>
                 <constraint firstItem="rmW-uv-QYm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LEC-fv-pzH"/>
-                <constraint firstItem="rmW-uv-QYm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-20" id="art-fz-t69"/>
+                <constraint firstItem="rmW-uv-QYm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="art-fz-t69"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rmW-uv-QYm" secondAttribute="bottom" id="fVP-vc-uRz"/>
                 <constraint firstItem="aQ5-Xj-cRm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="roX-k0-Ad1"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aQ5-Xj-cRm" secondAttribute="trailing" constant="20" id="uZm-8Q-uQF"/>
